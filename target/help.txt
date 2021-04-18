@@ -1,0 +1,30 @@
+<div class="slider">
+        <div class="green-part">
+            <p>70%</p>
+            <i class="fa fa-slideshare" aria-hidden="true"></i>
+        </div>
+        <div class="grey-part"> </div>
+ </div>
+
+
+
+
+
+.slider{
+    width:16vw;
+    display: flex;
+}
+.green-part{
+    width:70%;
+    text-align: right;
+    border-bottom: green solid;
+}
+.green-part p{
+    font-size: 12px;
+    transform: translate(6px,10px);
+
+}
+.grey-part{
+    width:30%;
+    border-bottom: grey solid;
+}
